@@ -9,11 +9,11 @@
     grid-template-areas:
     
     "nav header header header header header"
-    "nav article article article aside1 aside1"
-    "nav article article article aside1 aside1"
-    "nav article article article aside1 aside1"
-    "nav article article article aside2 aside2"
-    "nav article article article aside2 aside2"
+    "nav article article article article aside1"
+    "nav article article article article aside1"
+    "nav article article article article aside1"
+    "nav article article article article aside2"
+    "nav article article article article aside2"
     
     ;
     
@@ -44,6 +44,6 @@ article {
 }
 
 .aside2 {
-    grid-area:aside2
+    grid-area:aside2;
     display:grid;
 }
