@@ -1,0 +1,49 @@
+* {
+
+    border:5px solid red;
+}
+
+.mainGridContainer {
+    height:100vh;
+    display: grid;
+    grid-template-areas:
+    
+    "nav header header header header header"
+    "nav article article article aside1 aside1"
+    "nav article article article aside1 aside1"
+    "nav article article article aside1 aside1"
+    "nav article article article aside2 aside2"
+    "nav article article article aside2 aside2"
+    
+    ;
+    
+    
+    grid-template-columns:repeat(6, 1fr) ;
+    grid-template-rows:repeat(6, 1fr) ;
+    
+}
+
+nav {
+    grid-area: nav;
+    display:grid;
+}
+
+header {
+    grid-area: header;
+    display:grid;
+}
+
+article {
+    grid-area:article;
+    display: grid;
+}
+
+.aside1 {
+    grid-area: aside1;
+    display: grid;
+}
+
+.aside2 {
+    grid-area:aside2
+    display:grid;
+}
