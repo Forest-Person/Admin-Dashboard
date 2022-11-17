@@ -8,6 +8,9 @@ html{
     box-sizing: border-box;
     width:100%;
     height: auto;
+    display: grid;
+    margin:0%;
+    padding: 0%;
 
 }
 
@@ -15,6 +18,7 @@ body {
     margin:0%;
     padding: 0%;
     height: 100%;
+    box-sizing: border-box;
 }
 
 .mainGridContainer {
@@ -40,10 +44,30 @@ body {
 nav {
     grid-area: nav;
     display:grid;
-    background-color: blue;
+    background-color: rgb(6, 79, 196);
+    
+    
 }
 
-header {
+ nav>ul{
+    
+    list-style-type: none;
+    
+
+ }
+
+ li>a{
+    text-decoration: none;
+    color: white;
+ }
+
+ nav :nth-child(7)  {
+
+    padding-top: 4rem;
+ }
+
+
+ header {
     grid-area: header;
     display:grid;
 }
