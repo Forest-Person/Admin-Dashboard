@@ -50,17 +50,22 @@ nav {
 }
 
  nav>ul{
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
     list-style-type: none;
+    align-items: center;
     
 
  }
 
+ 
  li>a{
     text-decoration: none;
     color: white;
  }
 
+ 
  nav :nth-child(7)  {
 
     padding-top: 4rem;
@@ -86,3 +91,9 @@ article {
     grid-area:aside2;
     display:grid;
 }
+
+.Svg {
+
+    width: 2rem;
+}
+
