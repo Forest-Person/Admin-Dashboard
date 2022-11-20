@@ -108,3 +108,42 @@ article {
     width:5rem
 }
 
+.headerTop{
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.leftHeader{
+
+    display: grid;
+    align-items: center;
+    grid-template-columns: .5fr 4fr ;
+}
+
+.rightHeader {
+
+    display: grid;
+    grid-template-columns: .5fr 1fr 1fr;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.rightHeader :nth-child(2){
+
+    padding-left: 1rem;
+}
+
+.rightHeader :nth-child(1){
+
+    padding-left: 4rem;
+}
+
+
+input {
+
+    background-color: rgb(217, 210, 210);
+    border-radius:12px;
+}
+
+
