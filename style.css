@@ -97,9 +97,14 @@ article {
     display:grid;
 }
 
-.Svg {
+.navSvg {
 
     width: 2rem;
     filter:invert()
+}
+
+.ouroborusIcon {
+
+    width:5rem
 }
 
