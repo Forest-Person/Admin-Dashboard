@@ -100,5 +100,6 @@ article {
 .Svg {
 
     width: 2rem;
+    filter:invert()
 }
 
