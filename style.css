@@ -66,7 +66,7 @@ nav {
  }
 
  
- nav :nth-child(13)  {
+ nav :nth-child(13)  { /*using padding to space 13 and 14th children of the nav icons a bit*/
 
     padding-top: 4rem;
  }
@@ -100,7 +100,7 @@ article {
 .navSvg {
 
     width: 2rem;
-    filter:invert()
+    filter:invert() /*inver color sample on  svg object*/
 }
 
 .ouroborusIcon {
@@ -111,7 +111,7 @@ article {
 .headerTop{
 
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: .5fr 1fr;
 }
 
 .leftHeader{
@@ -124,20 +124,26 @@ article {
 .rightHeader {
 
     display: grid;
-    grid-template-columns: .5fr 1fr 1fr;
+    grid-template-columns: .7fr .8fr;
     align-items: center;
-    column-gap: 2rem;
+    justify-items: right;
+    
 }
 
-.rightHeader :nth-child(2){
 
-    padding-left: 1rem;
+
+.symbolName { /*this is the ouroborus and name seciton in right header*/
+
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    justify-items: right;
 }
 
-.rightHeader :nth-child(1){
+.symbolName :nth-child(2){ /*turn on no wrap to make name one line*/
 
-    padding-left: 4rem;
+    white-space: nowrap;
 }
+
 
 
 input {
