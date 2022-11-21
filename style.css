@@ -108,6 +108,11 @@ article {
     width:5rem
 }
 
+.ouroborusIconLowerHeader{
+
+    width:2rem
+}
+
 .headerTop{
 
     display: grid;
@@ -128,6 +133,49 @@ article {
     align-items: center;
     justify-items: right;
     
+}
+
+.lowerLeftHeaderBottom{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: left;
+    white-space: nowrap;
+}
+
+.headerBottom {
+
+    display:grid;
+    grid-template-columns: .1fr 1fr;
+    align-items: center;
+    
+}
+
+.headerBottom .new-Upload-Share-Buttons{
+
+    align-items: right;
+}
+
+.new-Upload-Share-Buttons {
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    justify-items: right;
+    height:3rem;
+    
+}
+
+.new-Upload-Share-Buttons button {
+
+    font-size:1.5rem;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    ;
 }
 
 
@@ -151,5 +199,7 @@ input {
     background-color: rgb(217, 210, 210);
     border-radius:12px;
 }
+
+
 
 
