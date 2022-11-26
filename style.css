@@ -27,11 +27,11 @@ body {
     grid-template-areas:
     
     "nav header header header header header"
-    "nav article article article article aside1"
-    "nav article article article article aside1"
-    "nav article article article article aside1"
-    "nav article article article article aside2"
-    "nav article article article article aside2"
+    "nav main main main main aside1"
+    "nav main main main main aside1"
+    "nav main main main main aside1"
+    "nav main main main main aside2"
+    "nav main main main main aside2"
     
     ;
     
@@ -77,8 +77,8 @@ nav {
 
 
 
-article {
-    grid-area:article;
+main {
+    grid-area:main;
     display: grid;
 }
 
