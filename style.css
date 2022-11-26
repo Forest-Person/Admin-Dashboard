@@ -79,7 +79,7 @@ nav {
 
 main {
     grid-area:main;
-    display: grid;
+    
 }
 
 .aside1 {
@@ -224,6 +224,15 @@ input {
     justify-items: right;
     align-items: center;
 }
+
+.cardSection {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+
 
 
 
