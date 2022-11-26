@@ -6,9 +6,10 @@
 
 html{
     box-sizing: border-box;
-    width:100%;
+    width: 100%;
     height: auto;
     display: grid;
+    
     margin:0%;
     padding: 0%;
 
@@ -22,7 +23,7 @@ body {
 }
 
 .mainGridContainer {
-    height:100vh;
+    height: 100vh;
     display: grid;
     grid-template-areas:
     
@@ -44,8 +45,9 @@ body {
 nav {
     grid-area: nav;
     display:grid;
+    grid-template-columns: 1fr;
     background-color: rgb(6, 79, 196);
-    min-width: auto;
+    
     
 
 }
@@ -105,6 +107,8 @@ main {
     align-items: center;
     margin-top: auto;
     margin-bottom: auto;
+    min-height: ;
+    
     
 }
 
@@ -256,8 +260,8 @@ input {
 
 .cardIcons{
     
-    width:1.25rem;
-    height: 1.25rem;
+    width:2rem;
+    height: 2rem;
 }
 
 .cardHeadingPara > h4 {
@@ -282,6 +286,23 @@ input {
 
 
 @media screen and (max-width:990px) {
+    
+    .mainGridContainer {
+        height:100vh;
+        display: flex;
+        flex-direction: column;
+        
+        
+        
+       
+    }
+
+    .cardSection{
+
+        display: flex;
+        flex-direction: column;
+    }
+    
     .headerBottom {
       display: flex;
       
