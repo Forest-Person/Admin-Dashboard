@@ -195,7 +195,7 @@ input {
     display: flex;
     gap:3rem;
     justify-content: flex-end;
-    flex-wrap: wrap;
+   flex-wrap: wrap;
 }
 
 
@@ -203,10 +203,12 @@ input {
 
 .new-Upload-Share-Buttons button {
 
-    font-size:1.5rem;
+    font-size:2rem;
     background-color: rgb(47, 47, 218);
     color: white;
     border-radius: 20px;
+    padding: .5rem;
+    
     
    
     
@@ -233,8 +235,9 @@ input {
 @media screen and (max-width:990px) {
     .headerBottom {
       display: flex;
+      
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start;
       
       
     }
@@ -243,5 +246,14 @@ input {
         display: flex;
         flex-direction: column;
     }
+
+    .new-Upload-Share-Buttons {
+
+        display: flex;
+        gap:3rem;
+        justify-content: center;
+       flex-wrap: wrap;
+    }
+    
   }
 
