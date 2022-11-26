@@ -178,6 +178,17 @@ input {
     
 }
 
+.lowerHeaderGreeting h1 {
+
+    margin:0;
+}
+
+.lowerHeaderGreeting p {
+    margin: 0;
+}
+
+
+
 
 
 .headerBottom {
@@ -209,10 +220,7 @@ input {
     border-radius: 20px;
     padding: .5rem;
     
-    
-   
-    
-    
+
 }
 
 
@@ -225,12 +233,44 @@ input {
     align-items: center;
 }
 
+
+.yourProjectsHeading {
+
+    margin: 0;
+}
+
+
 .cardSection {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
 }
+
+.cardSymbolDiv {
+
+    display: flex;
+    justify-content: flex-end;
+    gap:.5rem;
+}
+
+.cardIcons{
+    
+    width:1.25rem;
+    height: 1.25rem;
+}
+
+.cardHeadingPara > h4 {
+
+    margin:0;
+}
+
+.cardHeadingPara p {
+
+    margin:0;
+}
+
+
 
 
 
