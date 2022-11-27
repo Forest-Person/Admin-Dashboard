@@ -48,7 +48,7 @@ nav {
     display:grid;
     grid-template-columns: 1fr;
     background-color: rgb(6, 79, 196);
-    
+    height:100%;
     
 
 }
@@ -109,6 +109,8 @@ main {
     align-items: center;
     margin-top: auto;
     margin-bottom: auto;
+    padding:.25rem;
+    
     
     
     
@@ -119,7 +121,10 @@ main {
     color:white;
     font-size: 2rem;
     margin:0;
+    
 }
+
+
 
 .dashboardSvg {
     width: 4rem;
@@ -248,6 +253,8 @@ input {
 .yourProjectsHeading {
     background-color: rgb(220, 246, 252);
     margin: 0;
+    padding:1%;
+    
     
 }
 
@@ -260,6 +267,9 @@ input {
     row-gap: 1rem;
     column-gap:1rem;
     height: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
     
     
 }
@@ -271,15 +281,18 @@ input {
     row-gap: 1rem;
     column-gap:1rem;
     border-radius: 1rem;
-    padding-left: ;
+    min-height: auto;
     border-left:10px solid rgb(235, 135, 5);
+    
 }
 
 .cardHeadingPara{
-
+    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    
+    
 }
 
 
@@ -296,19 +309,19 @@ input {
     
     width:2rem;
     height: 2rem;
+    margin:0;
 }
 
 .cardHeadingPara > h4 {
 
-    margin:0;
+    margin:1%;
+    padding-left:1%;
 }
 
 .cardHeadingPara p {
-
-    margin:0;
+    padding:3%;
+    margin:1%;
 }
-
-
 
 
 
