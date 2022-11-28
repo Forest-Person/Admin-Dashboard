@@ -89,6 +89,8 @@ main {
 .aside1 {
     grid-area: aside1;
     display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto;
 }
 
 .aside2 {
@@ -192,6 +194,7 @@ input {
     align-items: center;
     
     
+    
 }
 
 .lowerHeaderGreeting h1 {
@@ -223,7 +226,7 @@ input {
     gap:3rem;
     justify-content: flex-end;
    flex-wrap: wrap;
-   padding:.5rem;
+   padding:.3rem;
 }
 
 
@@ -231,10 +234,10 @@ input {
 
 .new-Upload-Share-Buttons button {
 
-    font-size:2rem;
+    font-size:1.5rem;
     background-color: rgb(47, 47, 218);
     color: white;
-    border-radius: 20px;
+    border-radius: 5ch;
     padding: .5rem;
     
 
@@ -325,6 +328,24 @@ input {
 .cardHeadingPara p {
     padding:3%;
     margin:1%;
+}
+
+
+
+.announcementHeading {
+
+    margin:0;
+    max-height: 25vh;
+}
+
+.announcementsSection p{
+
+    margin:0;
+}
+
+.announcementsSection h5{
+
+    margin:0;
 }
 
 
