@@ -88,14 +88,13 @@ main {
 }
 .aside1 {
     grid-area: aside1;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-columns: auto;
+    
+   
 }
 
 .aside2 {
     grid-area:aside2;
-    display:grid;
+    
 }
 
 .navSvg {
@@ -348,6 +347,8 @@ input {
 
     margin:0;
 }
+
+
 
 
 
