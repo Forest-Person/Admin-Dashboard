@@ -31,7 +31,7 @@ body {
     "nav header header header header header"
     "nav main main main main aside1"
     "nav main main main main aside1"
-    "nav main main main main aside1"
+    "nav main main main main aside2"
     "nav main main main main aside2"
     "nav main main main main aside2"
     
@@ -274,10 +274,6 @@ input {
     padding-top: 5%;
     
     
-    
-    
-    
-    
 }
 
 
@@ -335,18 +331,20 @@ input {
 .announcementHeading {
 
     margin:0;
-    max-height: 25vh;
+    max-height: 15vh;
 }
 
 .announcementsSection p{
-
+   
     margin:0;
 }
 
 .announcementsSection h5{
-
+    padding:0;
     margin:0;
 }
+
+
 
 .trendingIcons {
 
@@ -354,11 +352,13 @@ input {
     height:2rem;
     margin:0;
     border-radius: 100%;
+    justify-content: center;
+   
 }
 
 .trendingHeading{
-
-    margin:0;
+    min-height: 0;
+    margin-top:2.5rem;
 }
 
 .trendingLinks {
@@ -368,6 +368,8 @@ input {
     grid-template-rows: auto;
     margin:0;
     justify-content: center;
+    align-items:center;
+    overflow-x: scroll;
 }
 
 .trendingLinks div {
@@ -385,10 +387,72 @@ input {
 }
 
 
+@media screen and (max-height:700px)  {
+    
+    .mainGridContainer {
+        height:100vh;
+        display: flex;
+        flex-direction: column;
+        
+        
+        
+       
+    }
+    .rightHeader {
+
+        display: grid;
+        grid-template-columns: .7fr .8fr;
+        align-items: center;
+        justify-items: center;
+        
+        
+    }
+
+    .cardSection{
+
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .headerBottom {
+      display: flex;
+      
+      flex-direction: column;
+      justify-content: flex-start;
+      
+      
+    }
+    .headerTop {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .new-Upload-Share-Buttons {
+
+        display: flex;
+        gap:3rem;
+        justify-content: center;
+       flex-wrap: wrap;
+    }
+    nav {
+
+        display:flex;
+        flex-direction: column;
+    }
+
+    nav > ul {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr ;
+        align-items: center;
+    }
+    
+  }
 
 
-
-@media screen and (max-width:990px) {
+@media screen and (max-width:990px)  {
     
     .mainGridContainer {
         height:100vh;
