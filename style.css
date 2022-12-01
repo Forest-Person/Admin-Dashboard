@@ -356,6 +356,34 @@ input {
     border-radius: 100%;
 }
 
+.trendingHeading{
+
+    margin:0;
+}
+
+.trendingLinks {
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin:0;
+    justify-content: center;
+}
+
+.trendingLinks div {
+    margin:0;
+}
+
+.trendingLinks p{
+
+    margin:0;
+}
+
+.trendingLinks h3{
+
+    margin:0;
+}
+
 
 
 
