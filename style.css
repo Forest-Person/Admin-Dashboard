@@ -326,10 +326,14 @@ input {
     margin:1%;
 }
 
+.announcementsDiv{
 
+    border-radius: 1rem;
+    padding:.5rem;
+}
 
 .announcementHeading {
-
+    background-color: rgb(220, 246, 252);
     margin:0;
     max-height: 15vh;
 }
@@ -344,7 +348,11 @@ input {
     margin:0;
 }
 
+.trendingDiv {
 
+    border-radius: 1rem;
+    padding:.5rem;
+}
 
 .trendingIcons {
 
@@ -369,11 +377,12 @@ input {
     margin:0;
     justify-content: center;
     align-items:center;
-    overflow-x: scroll;
+    
 }
 
 .trendingLinks div {
     margin:0;
+    
 }
 
 .trendingLinks p{
@@ -385,6 +394,11 @@ input {
 
     margin:0;
 }
+
+
+
+
+
 
 
 @media screen and (max-height:700px)  {
