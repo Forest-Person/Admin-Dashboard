@@ -350,9 +350,23 @@ input {
     margin:0;
 }
 
+.announceDiv1 {
+    border-bottom: 3px solid rgb(212, 201, 188);
+    padding-bottom: 1rem;
+}
+
+.announceDiv2{
+
+    border-bottom: 3px solid rgb(212, 201, 188);
+    padding-bottom: 1rem;
+}
+
 .announcementsSection h5{
     padding:0;
     margin:0;
+    
+    margin-bottom: .5rem;
+    margin-top: 1rem;
 }
 
 .trendingDiv {
