@@ -91,10 +91,12 @@ main {
     grid-area: aside1;
     background-color: rgb(220, 246, 252);
    z-index: 10;
+   min-height: 0;
 }
 
 .aside2 {
     grid-area:aside2;
+    min-width: 0;
     background-color: rgb(220, 246, 252);
 }
 
@@ -117,6 +119,12 @@ main {
     
     
     
+    
+}
+
+.dashboardDiv a {
+
+    text-decoration: none;
 }
 
 .dashboardDiv p {
