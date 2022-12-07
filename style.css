@@ -7,7 +7,7 @@
 html{
     box-sizing: border-box;
     width: 100%;
-    height: auto
+    height: auto;
     display: grid;
     
     margin:0;
@@ -88,13 +88,13 @@ main {
 }
 .aside1 {
     grid-area: aside1;
-    
-   
+    background-color: rgb(220, 246, 252);
+   z-index: 10;
 }
 
 .aside2 {
     grid-area:aside2;
-    
+    background-color: rgb(220, 246, 252);
 }
 
 .navSvg {
@@ -330,6 +330,7 @@ input {
 
     border-radius: 1rem;
     padding:.5rem;
+    background-color: rgb(252, 255, 254);
 }
 
 .announcementHeading {
@@ -337,6 +338,8 @@ input {
     margin:0;
     max-height: 15vh;
 }
+
+
 
 .announcementsSection p{
    
@@ -383,6 +386,11 @@ input {
 .trendingLinks div {
     margin:0;
     
+    
+}
+
+.trendingDiv{
+    background-color: rgb(252, 255, 254);
 }
 
 .trendingLinks p{
