@@ -65,6 +65,7 @@ nav {
  li>a{
     text-decoration: none;
     color: white;
+    margin-right: 1rem;
  }
 
  nav :nth-child(13)  { /*using padding to space 13 and 14th children of the nav icons a bit*/
@@ -165,6 +166,7 @@ input {
     justify-content: center;
     align-content: center;
     margin:0;
+    margin-right: 1rem;
 }
 
 .leftHeader{
@@ -191,6 +193,7 @@ input {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 1rem;
     
     
     
