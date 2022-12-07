@@ -1,6 +1,6 @@
 * {
 
-    
+   
     
 }
 
@@ -29,11 +29,11 @@ body {
     grid-template-areas:
     
     "nav header header header header header"
-    "nav main main main main aside1"
-    "nav main main main main aside1"
-    "nav main main main main aside2"
-    "nav main main main main aside2"
-    "nav main main main main aside2"
+    "nav main main main aside1 aside1"
+    "nav main main main aside1 aside1"
+    "nav main main main aside2 aside2"
+    "nav main main main aside2 aside2"
+    "nav main main main aside2 aside2"
     
     ;
     
@@ -335,8 +335,9 @@ input {
 
 .announcementHeading {
     background-color: rgb(220, 246, 252);
-    margin:0;
+    margin-bottom:1rem;
     max-height: 15vh;
+    
 }
 
 
@@ -354,7 +355,7 @@ input {
 .trendingDiv {
 
     border-radius: 1rem;
-    padding:.5rem;
+    padding-bottom:.5rem;
 }
 
 .trendingIcons {
@@ -369,7 +370,7 @@ input {
 
 .trendingHeading{
     min-height: 0;
-    margin-top:2.5rem;
+    margin-top:4rem;
 }
 
 .trendingLinks {
@@ -377,20 +378,22 @@ input {
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    margin:0;
+    
     justify-content: center;
     align-items:center;
     
 }
 
 .trendingLinks div {
-    margin:0;
+    margin-top:1rem;
     
     
 }
 
 .trendingDiv{
     background-color: rgb(252, 255, 254);
+    max-width: 100vw;
+    margin: 0;
 }
 
 .trendingLinks p{
